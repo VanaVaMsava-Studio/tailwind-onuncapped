@@ -1,0 +1,144 @@
+/* General styles */
+.contact-page body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.contact-page .form-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  margin: 20px;
+  height: 80vh;
+  align-items: center;
+}
+
+/* Image section styling */
+.contact-page .form-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-page .form-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form section styling */
+.contact-page .form-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-page form h2 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #285346;
+  font-weight: bold;
+}
+
+.contact-page .radio-group,
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page input[type="tel"],
+.contact-page input[type="number"],
+.contact-page select {
+  width: 100%;
+}
+
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page input[type="tel"],
+.contact-page input[type="number"],
+.contact-page select {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.contact-page input[type="text"]:focus,
+.contact-page input[type="email"]:focus,
+.contact-page input[type="tel"]:focus,
+.contact-page input[type="number"]:focus,
+.contact-page select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Radio buttons styling */
+.contact-page .radio-group label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-page .radio-group input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Button styling */
+.contact-page button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100px;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.contact-page button:hover {
+  background-color: #45a049;
+}
+
+/* Stage indicator styling */
+.contact-page p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-page .form-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-page .form-image {
+    margin-bottom: 20px;
+  }
+}
