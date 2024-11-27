@@ -1,0 +1,59 @@
+/* Integration Carousel Styling */
+.integration-carousel {
+  background-color: #f7f7f7; /* Light gray background */
+  padding: 3rem 1rem; /* Spacing for the section */
+  text-align: center; /* Center the text */
+}
+
+.integration-container {
+  max-width: 100%; /* Limit width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #ffffff; /* White background */
+  padding: 2rem; /* Add padding inside the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.integration-title {
+  font-size: 2.5rem; /* Title size */
+  font-weight: bold;
+  color: #1d4ed8; /* Blue color */
+  margin-bottom: 2rem; /* Space below the title */
+}
+
+.integration-slider .integration-slide {
+  padding: 2rem; /* Spacing within each slide */
+}
+
+.integration-logo {
+  width: 100px; /* Limit logo size */
+  height: auto;
+  margin: 0 auto 1.5rem; /* Center logo and add space below */
+}
+
+.integration-heading {
+  font-size: 1.5rem; /* Heading size */
+  font-weight: bold;
+  color: #333333; /* Dark gray */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+.integration-description {
+  font-size: 1rem; /* Normal text size */
+  line-height: 1.6; /* Line height for readability */
+  color: #666666; /* Medium gray */
+}
+
+.integration-link {
+  margin-top: 2rem; /* Space above the link */
+  font-weight: bold;
+}
+
+.integration-link a {
+  color: #1d4ed8; /* Blue color */
+  text-decoration: none;
+}
+
+.integration-link a:hover {
+  text-decoration: underline;
+}
